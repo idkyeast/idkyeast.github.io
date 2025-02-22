@@ -1,0 +1,42 @@
+{
+    "en": {
+        "welcome": "Welcome to Shewita Shifone",
+        "description": "Discover the beauty and elegance of Ethiopian traditional wear",
+        "gallery": "Our Collection",
+        "about": "About Us",
+        "aboutText": "Dedicated to preserving Ethiopian culture through clothing.",
+        "contact": "Contact Us"
+    },
+    "am": {
+        "welcome": "እንኳን ወደ ሸዊታ ሽፎን በደህና መጡ",
+        "description": "የኢትዮጵያ ባህላዊ ልብስ ውበትን ይዩ",
+        "gallery": "ስብስብ",
+        "about": "ስለ እኛ",
+        "aboutText": "የኢትዮጵያን ባህላዊ ልብስ ማስቀመጥ የእኛ ተልዕኮ ነው።",
+        "contact": "እኛን ያግኙ"
+    },
+    "es": {
+        "welcome": "Bienvenido a Shewita Shifone",
+        "description": "Descubre la belleza y la elegancia de la ropa tradicional etíope",
+        "gallery": "Nuestra Colección",
+        "about": "Sobre Nosotros",
+        "aboutText": "Dedicados a preservar la cultura etíope a través de la ropa tradicional.",
+        "contact": "Contáctanos"
+    },
+    "fr": {
+        "welcome": "Bienvenue chez Shewita Shifone",
+        "description": "Découvrez la beauté et l'élégance des vêtements traditionnels éthiopiens",
+        "gallery": "Notre Collection",
+        "about": "À Propos de Nous",
+        "aboutText": "Dédié à préserver la culture éthiopienne à travers les vêtements traditionnels.",
+        "contact": "Contactez-nous"
+    },
+    "om": {
+        "welcome": "Baga Nagaan Dhufte Shewita Shifone",
+        "description": "Miidhagina fi bareedina uffata aadaa Itoophiyaa beekuu",
+        "gallery": "Koleejji keenya",
+        "about": "Waa'ee Keenya",
+        "aboutText": "Aadaa Itoophiyaa tikfachuuf waadaa galle.",
+        "contact": "Nu qunnamuu"
+    }
+}
