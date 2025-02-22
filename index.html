@@ -14,9 +14,9 @@
                 <a href="#home" class="active">Home</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#about">About Us</a>
-                <a href="#contact">Contact</a>
+                <a href="#contact" target="_blank">Contact</a>
             </div>
-            <button class="toggle-btn" id="toggleBtn">&#8593;</button>
+            <button class="toggle-btn" id="toggleBtn">&#8593;</button> 
         </div>
     </nav>
 
@@ -31,13 +31,22 @@
 
         <section id="gallery" class="gallery">
             <h2>Our Collection</h2>
-            <div class="gallery-container" id="galleryContainer"></div>
+            <div class="gallery-container" id="galleryContainer">
+            
+            </div>
         </section>
 
         <section id="about" class="about">
             <h2>About Us</h2>
             <div class="about-content">
-                <p>We create elegant Ethiopian traditional clothing with love and care, preserving our heritage.</p>
+                <div class="about-section">
+                    <h3>Our Story</h3>
+                    <p>As a dedicated mother of three children, I have devoted my life to preserving and sharing the rich cultural heritage of Ethiopian traditional clothing. What began as a passion has blossomed into a thriving business, allowing me to support my family while celebrating our beautiful traditions.</p>
+                </div>
+                <div class="about-section">
+                    <h3>Our Craft</h3>
+                    <p>Each piece of clothing we create is a testament to the centuries-old traditions of Ethiopian craftsmanship. We carefully select the finest materials and employ traditional techniques passed down through generations, ensuring that every garment tells a story of our cultural heritage.</p>
+                </div>
             </div>
         </section>
 
@@ -46,34 +55,41 @@
             <div class="contact-grid">
                 <a href="tel:+251911602340" class="contact-card">
                     <div class="contact-icon">📞</div>
-                    <div class="contact-info"><h3>Phone</h3><p>+251911602340</p></div>
+                    <div class="contact-info">
+                        <h3>Phone</h3>
+                        <p>+251911602340</p>
+                    </div>
                 </a>
                 <a href="https://t.me/shewitashifonee" class="contact-card" target="_blank">
                     <div class="contact-icon">✈️</div>
-                    <div class="contact-info"><h3>Telegram</h3><p>@shewitashifonee</p></div>
+                    <div class="contact-info">
+                        <h3>Telegram</h3>
+                        <p>@shewitashifonee</p>
+                    </div>
+                </a>
+                <a href="https://instagram.com/idk.yeast" class="contact-card" target="_blank">
+                    <div class="contact-icon">📸</div>
+                    <div class="contact-info">
+                        <h3>Instagram</h3>
+                        <p>@idk.yeast</p>
+                    </div>
                 </a>
                 <a href="https://www.facebook.com/share/18v8zkzgUY/" class="contact-card" target="_blank">
                     <div class="contact-icon">👥</div>
-                    <div class="contact-info"><h3>Facebook</h3><p>Shewita Shifone</p></div>
+                    <div class="contact-info">
+                        <h3>Facebook</h3>
+                        <p>Shewita Shifone</p>
+                    </div>
+                </a>
+
+                <a href="https://maps.app.goo.gl/MHJ4DCe7R1EXv1rYA" class="contact-card" target="_blank">
+                    <div class="contact-icon">📍🗺️</div>
+                    <div class="contact-info">
+                        <h3>adress</h3>
+                        <p>Merkato Addisu Military Tera ቁ:F1-029C ወይም በ0911602340 ደዉሉ</p>
+                    </div>
                 </a>
             </div>
-        </section>
-
-        <section class="comments">
-            <h2>Leave a Comment</h2>
-            <form id="commentForm">
-                <textarea id="commentText" placeholder="Write your comment..."></textarea>
-                <input type="file" id="commentImage" accept="image/*">
-                <div class="star-rating">
-                    <span data-star="1">⭐</span>
-                    <span data-star="2">⭐</span>
-                    <span data-star="3">⭐</span>
-                    <span data-star="4">⭐</span>
-                    <span data-star="5">⭐</span>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-            <div id="commentSection"></div>
         </section>
     </main>
 
